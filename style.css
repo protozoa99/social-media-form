@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    background-color: hsl(0, 0%, 0%);
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem 10rem;
+    max-width:  1440px;
+}
+img{
+   border-radius: 50%;
+   object-fit: contain;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80px;
+}
+.container{
+    border: solid 3px hsl(0, 7%, 5%);
+    border-radius: 15px ;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 16rem;
+    height: 440px;
+}
+.name{
+    font-size: 14px;
+    font-family: "inter" serif ;
+    font-weight: 300;
+    color: white;
+}
+.loc{
+    font-size: 12px; 
+    font-family: "inter" serif;
+    font-weight: 300;
+    color: greenyellow;
+    margin-bottom: 1.5rem;
+}
+.job{
+    font-size: 10px; 
+    font-family: "inter" serif;
+    font-weight: 250;
+    color: white;
+}
+   
+.a,.b,.c,.d,.e{
+    font-size: 13px;
+    font-family: "inter" serif;
+    font-weight: 300;
+    color: white;
+    border-radius: 0.5rem;
+    background-color:hsl(0, 0%, 20%) ;
+    padding: 0.35rem;
+    margin: 0.95rem 2rem;   
+}
+.a:hover,.b:hover,.c:hover,.d:hover,.e:hover{
+    font-size: 13px;
+    border-radius: 0.5rem;
+    color: black;
+    background-color:hsl(69, 81%, 62%) ;
+    padding: 0.35rem;
+    margin: 0.75rem 2rem;   
+}
